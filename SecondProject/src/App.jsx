@@ -7,7 +7,7 @@ const Num = () => {
 }
 
 
-const Name = () => {
+export const Name = () => {
   const name = "irfan"
   return(
     <h2>Name is {name}</h2>
