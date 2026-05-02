@@ -1,4 +1,4 @@
-const card = () =>{
+const Card = () =>{
     return(
         <>
             <div id="container">
@@ -17,4 +17,4 @@ const card = () =>{
     )
 }
 
-export default card
+export default Card
