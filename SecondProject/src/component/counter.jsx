@@ -4,11 +4,21 @@ const Counter = () => {
     const [count, setcount] = useState(0)
     
     function increment(){
-        setcount(count + 1)
+
+        if(count<10){
+            setcount(count + 1)
+
+        }
+
     }
 
     function decrement() {
-        setcount(count-1)
+
+        if(count>0){
+            setcount(count-1)
+
+        }
+
     }
 
     return(
